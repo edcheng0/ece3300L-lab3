@@ -1,6 +1,8 @@
 # ece2300L-lab3 : Combinational-Circuit Building Blocks
 
 ## Files
+
+### Design
 - [`src/priority_encoder_generic.v`](verilog/design/priority_encoder_generic.v) – starter: parameterized priority encoder
 - [`src/decoder_generic.v`](verilog/design/decoder_generic.v) – starter: parameterized decoder
 - [`src/hex2sseg.v`](verilog/design/hex2sseg.v) – starter: hex to seven-segment converter
@@ -14,12 +16,16 @@
 - [`src/csa_multiplier_4bit.v`](verilog/design/csa_multiplier_4bit.v) – Lab 2: 4x4 carry-save multiplier
 - [`src/simple_calc.v`](verilog/design/simple_calc.v) – Lab 2: simple calculator
 - [`src/bin2bcd.v`](verilog/design/bin2bcd.v) – Lab 2: binary to BCD converter
+
+### Sim
 - [`tb/tb_prior_encoder_test.v`](verilog/sim/tb_prior_encoder_test.v) – Part 1 testbench
 - [`tb/tb_first_sseg_driver.v`](verilog/sim/tb_first_sseg_driver.v) – Part 2 driver testbench
 - [`tb/tb_first_sseg_driver_test.v`](verilog/sim/tb_first_sseg_driver_test.v) – Part 2 top-module testbench
 - [`tb/tb_lab2_blocks.v`](verilog/sim/tb_lab2_blocks.v) – Lab 2 block testbench
 - [`tb/tb_simple_calc_first_sseg.v`](verilog/sim/tb_simple_calc_first_sseg.v) – Part 3 testbench (exhaustive)
 - [`tb/tb_simple_calc_first_sseg_simple.v`](verilog/sim/tb_simple_calc_first_sseg_simple.v) – Part 3 testbench (simplified)
+
+### Constraints
 - [`constraints/part1_prior_encoder_test.xdc`](verilog/constraints/part1_prior_encoder_test.xdc) – Part 1 board constraints, Nexys A7-100T
 - [`constraints/part2_first_sseg_driver_test.xdc`](verilog/constraints/part2_first_sseg_driver_test.xdc) – Part 2 board constraints, Nexys A7-100T
 - [`constraints/part3_simple_calc_first_sseg.xdc`](verilog/constraints/part3_simple_calc_first_sseg.xdc) – Part 3 board constraints, Nexys A7-100T
