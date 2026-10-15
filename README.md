@@ -1,4 +1,4 @@
-# ece2300L-lab3 : Combinational-Circuit Building Blocks
+# ece3300L-lab3 : Combinational-Circuit Building Blocks
 
 ## Files
 
